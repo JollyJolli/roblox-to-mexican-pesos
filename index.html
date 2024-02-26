@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Robux a Pesos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Robux a Pesos</h1>
+        <div class="input-container">
+            <label for="robux">Robux:</label>
+            <input type="number" id="robux" placeholder="Ingrese la cantidad de Robux">
+        </div>
+        <div class="input-container">
+            <label for="pesos">Pesos:</label>
+            <input type="number" id="pesos" placeholder="Ingrese la cantidad de Pesos">
+        </div>
+        <div class="result-container">
+            <button onclick="calcularRobux()">Calcular Robux</button>
+            <button onclick="calcularPesos()">Calcular Pesos</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
